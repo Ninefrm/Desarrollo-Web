@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+<meta @charset "UTF-8">
+<title>SAMUELFRM</title>
+<link rel="icon" href="Img/iyt.png">
+<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+
+
+<style>
+*{
+  margin: 0;
+  padding: auto;
+  list-style: none;
+  font-family:'Roboto', sans-serif;
+}
+  header{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 64px;
+    background: black;
+  }
+  nav{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 418.8px;
+    background: grey;
+  }
+  section{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 72px;
+    background: #282828;
+  }
+  footer{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 30px;
+    background: #420b09;
+
+  }
+  #logo{
+    position: absolute;
+    margin: 20px 20px;
+    width: 92.4px;
+    height: 24px;
+  }
+  .icons{
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background: #919191;
+  }
+  #home{
+    position: absolute;
+    margin: 20px 520px;
+    border-radius: 0%;
+  }
+  #fire{
+    position: absolute;
+    margin: 20px 587px;
+    border-radius: 0%;
+  }
+  #biblio{
+    position: absolute;
+    margin: 20px 654px;
+    border-radius: 0%;
+  }
+  #search{
+    position: absolute;
+    margin: 20px 721px;
+    border-radius: 0%;
+  }
+  #user{
+    position: absolute;
+    margin: 20px 1200px;
+  }
+  .Titles{
+    width: 100.86px;
+    height: 50.66px;
+  }
+  #Liked{
+    position: absolute;
+    margin: 20px 20px;
+  }
+  #Unliked{
+    position: absolute;
+    margin: 210px 20px;
+  }
+  .DL{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 100%;
+  }
+  #Disc1L{
+    position: absolute;
+    margin: 80px 30px;
+  }
+  #Disc2L{
+    position: absolute;
+    margin: 80px 190px;
+  }
+  #Disc3L{
+    position: absolute;
+    margin: 80px 350px;
+  }
+  .DUL{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 100%;
+  }
+  #Disc1UL{
+    position: absolute;
+    margin: 270px 30px;
+  }
+  #Disc2UL{
+    position: absolute;
+    margin: 270px 190px;
+  }
+  #Disc3UL{
+    position: absolute;
+    margin: 270px 350px;
+  }
+  .Player{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 100%;
+  }
+  #Return{
+    position: absolute;
+    margin: 15px 10px;
+  }
+  #Play{
+    position: absolute;
+    margin: 10px 60px;
+    width: 56px;
+    height: 56px;
+  }
+  #Next{
+    position: absolute;
+    margin: 15px 125px;
+  }
+  #Option{
+    position: absolute;
+    margin: 15px 125px;
+  }
+  #Volume{
+    position: absolute;
+    margin: 15px 1000px;
+  }
+  #Repeat{
+    position: absolute;
+    margin: 15px 1050px;
+  }
+  #Shuffle{
+    position: absolute;
+    margin: 15px 1100px;
+  }
+  #Disc{
+    position: absolute;
+    margin: 15px 400px;
+    border-radius: 0%;
+  }
+  #Like{
+    position: absolute;
+    margin: 15px 655px;
+  }
+  #Unlike{
+    position: absolute;
+    margin: 15px 700px;
+  }
+  .Song{
+    width: 200px;
+    height: 16px;
+  }
+  #Title{
+    position: absolute;
+    margin: 15px 445px;
+  }
+  #Author{
+    width: 52px;
+    position: absolute;
+    margin: 35px 445px;
+  }
+  #Album{
+    width: 60px;
+    position: absolute;
+    margin: 35px 515px;
+  }
+  #Year{
+    width: 52px;
+    position: absolute;
+    margin: 35px 580px;
+  }
+
+
+</style>
+</head>
+
+<header>
+  <div id="logo"><img src="img/YM.svg"></div>
+  <div id="home" class="icons"></div>
+  <div id="fire" class="icons"></div>
+  <div id="biblio" class="icons"></div>
+  <div id="search" class="icons"></div>
+  <div id="user" class="icons"><img class="icons" src="img/perfil.jpg"></div>
+</header>
+
+<nav>
+  <div id="Liked" class="Titles"><p style="color: white">Liked <br> Songs</p></div>
+  <div id="Disc1L" class="DL"></div>
+  <div id="Disc2L" class="DL"></div>
+  <div id="Disc3L" class="DL"></div>
+  <div id="Unliked" class="Titles"><p style="color: white">No liked <br> Songs</p></div>
+  <div id="Disc1UL" class="DUL"></div>
+  <div id="Disc2UL" class="DUL"></div>
+  <div id="Disc3UL" class="DUL"></div>
+</nav>
+
+<div id="top">
+</div>
+
+<section>
+  <div id="Return" class="Player"></div>
+  <div id="Play" class="Player"></div>
+  <div id="Next" class="Player"></div>
+  <div id="Disc" class="Player"><img class="Player" src="img/disc.jpg"></div>
+  <div id="Title" class="Song"><p style="color: white">Looking for u</p></div>
+  <div id="Author" class="Song"><p style="color: white">Max</p></div>
+  <div id="Album" class="Song"><p style="color: white">Mi vida</p></div>
+  <div id="Year" class="Song"><p style="color: white">2018</p></div>
+  <div id="Like" class="Player"></div>
+  <div id="Unlike" class="Player"></div>
+  <div id="Option" class="Player"></div>
+  <div id="Volume" class="Player"></div>
+  <div id="Repeat" class="Player"></div>
+  <div id="Shuffle" class="Player"></div>
+</section>
+
+<footer>
+  <center><p style="color: white">Hecho por @SAMUELFRM</p></center>
+</footer>
+
+</body>
+</HTML>
